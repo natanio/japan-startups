@@ -1,0 +1,11 @@
+# Site settings
+title: Japan Startups Blog
+email: nate@japanstartups.com
+description: Japan Startups is a community that believes the innovative minds in Japan should have one place to meet and collaborate. Our blog is about everything you need to know about creating a startup in Japan.
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "http://japanstartups.com" # the base hostname & protocol for your site
+twitter_username: japanstartups
+github_username:  natanio
+
+# Build settings
+markdown: kramdown
