@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Japan Startups Blog</title>
-    <description>Japan Startups is a community that believes the innovative minds in Japan should have one place to meet and collaborate. Our blog is about everything you need to know about creating a startup in Japan.</description>
-    <link>http://japanstartups.com/blog/</link>
-    <atom:link href="http://japanstartups.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Jan 2016 17:00:34 +0900</pubDate>
-    <lastBuildDate>Mon, 04 Jan 2016 17:00:34 +0900</lastBuildDate>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/blog/</link>
+    <atom:link href="http://yourdomain.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 04 Jan 2016 17:08:31 +0900</pubDate>
+    <lastBuildDate>Mon, 04 Jan 2016 17:08:31 +0900</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
   </channel>
