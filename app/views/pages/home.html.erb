@@ -1,3 +1,347 @@
-<h2>Homepage</h2>
+<body data-spy="scroll" data-target="#navbar" data-offset="70">
+  <div id="navbar" class="navbar navbar-inverse">
+    <div class="fixed-container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="fa fa-bar"></span>
+          <span class="fa fa-bar"></span>
+          <span class="fa fa-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#home"><!-- <span class="glyphicon glyphicon-send"></span> -->Japan Startups</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#about"><span class="glyphicon glyphicon-user"></span>Team</a></li>
+          <li><a href="#services"><i class="fa fa-gear"></i>Features</a></li>
+          <!-- <li><a href="#work"><span class="glyphicon glyphicon-briefcase"></span>Work</a></li>
+          <li><a href="#pricing"><i class="fa fa-dollar"></i>Pricing</a></li>
+          <li><a href="#clients"><i class="fa fa-comments"></i>Clients</a></li> -->
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
 
-<p>This will be the homepage</p>
+
+  <!-- Features Section -->
+  <div id="home" class="section welcome">
+    <img class="background" src="https://s3.amazonaws.com/japanstartups/img/mt-fuji.jpg" alt="stream blurred">
+    <div class="container">
+      <div class="content">
+        <span class="logo">
+          <%= image_tag 'https://s3.amazonaws.com/japanstartups/img/logo.png' %>
+        </span>
+        <h1>Connecting Innovative Minds in Japan</h1>
+        <a class="scroll-down btn" href="#about">LEARN MORE</a>
+        <a class="scroll-down" href="#about"><i class="fa fa-angle-down"></i></a>
+      </div><!-- /.content -->
+    </div>
+  </div><!-- /.container -->
+
+  <!-- About Section -->
+  <div id="about" class="section">
+    <div class="fixed-container">
+
+      <div class="content team">
+        <h1>Meet the Team</h1>
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12 col-md-offset-2">
+            <h2>Nate Hill</h2>
+            <h3 class="italic">Community Founder</h3>
+            <div class="portrait">
+              <img src="https://s3.amazonaws.com/japanstartups/img/nate-hill.jpg" alt="Team Portrait">
+            </div>
+            <p>I'm fascinated by the power of collective intelligence. It's always given our species the ability to increase our knowledge of the world exponentially with each new generation. With the internet, this is only happening at an amazing rate. It's my desire to see this community connect like-minded, innovative people in Japan so that any idea can become a reality.</p>
+            <div class="social-media">
+              <a href="https://www.twitter.com/natanio" data-toggle="tooltip" title="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://jp.linkedin.com/in/hillnathanael" data-toggle="tooltip" title="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://www.gitub.com/natanio" data-toggle="tooltip" title="github"><i class="fa fa-github"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <h2>You?</h2>
+            <h3 class="italic">Team Member</h3>
+            <div class="portrait">
+              <%= fa_icon "question-circle", class: 'big-icon' %>
+            </div>
+            <p>If you'd like to help make the startup scene in Japan more vibrant, and more connected across the country, I'd love to here from you!</p>
+            <%= link_to 'Join the Team', "mailto:nate@japanstartups.com?bcc=natanio@gmail.com&subject=Join the Japan Startups Team", class: 'btn btn-default' %>
+          </div>
+          <!-- <div class="col-md-4 col-sm-4 col-xs-12">
+            <h2>Jessica Smith</h2>
+            <h3 class="italic">Graphic Designer</h3>
+            <div class="portrait">
+              <img src="img/portrait3.jpg" alt="Team Portrait">
+            </div>
+            <p>My name is Jessica Smith. I work mainly as a graphic designer, designing beautiful web elements, buttons, backgrounds, and really anything that is needed.</p>
+            <div class="social-media">
+              <a href="#" data-toggle="tooltip" title="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" data-toggle="tooltip" title="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" data-toggle="tooltip" title="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="#" data-toggle="tooltip" title="github"><i class="fa fa-github"></i></a>
+              <a href="#" data-toggle="tooltip" title="pinterest"><i class="fa fa-pinterest"></i></a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- /.container -->
+
+  <!-- Services Section -->
+  <!--  Image background parallax -->
+  <div id="services" class="section image">
+    <div class="background parallax"></div>
+    <div class="fixed-container">
+
+      <div class="content services">
+        <h1>Features</h1>
+        <div class="row">
+          <div class="empty col-md-2 col-sm-3 col-xs-12"></div>
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <h3>We're planning to build in the below features in our community so that people in Japan with ideas for businesses can find other likeminded individuals to bounce ideas around, or join forces to make their ideas a reality -- </strong>regardless of where you live in Japan</strong>.</h3>
+            <h3>If this sounds great, <%= link_to 'Ask for an Invitation', 'mailto:nate@japanstartups.com?bcc=natanio@gmail.com&subject=Invitation for Japan Startups' %></h3>
+          </div>
+          <div class="empty col-md-2 col-sm-3 col-xs-12"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="service-icon">
+              <i class="fa fa-sitemap" data-toggle="tooltip" title="Tell us what your skills are and what skills you're looking for. We'll help you find the right collaborators."></i>
+              <span>BUILD A NETWORK</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="service-icon">
+              <i class="fa fa-users" data-toggle="tooltip" title="Starting a new venture requires the right people. This is usually the hardest part, but we want to help make it easier."></i>
+              <span>FIND PARTNERS</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="service-icon">
+              <i class="fa fa-heart" data-toggle="tooltip" title="Let others know about your startup, and hear what suggestions they have from their own experience."></i>
+              <span>GET SUPPORT</span>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-6">
+            <div class="service-icon">
+              <i class="fa fa-tree" data-toggle="tooltip" title="We believe basing yourself in one of the big cities is no longer a prerequisite to meeting the right people. Base yourself closer to nature if that's where your heart is, or don't! You should have the freedom to choose."></i>
+              <span>LOCATION INDEPENDENT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Portfolio Section -->
+  <!--  On smaller devices, portfolio becomes auto height and no fixed -->
+
+  <!-- <div id="work" class="section white">
+    <div class="fixed-container">
+      <div class="content">
+
+        <h1>Our Work</h1> -->
+        <!-- FILTER CONTROLS -->
+
+        <!-- <div class="controls">
+          <a class="btn filter" data-filter="all">SHOW ALL</a>
+          <a class="btn filter" data-filter="category_1">CATEGORY 1</a>
+          <a class="btn filter" data-filter="category_2">CATEGORY 2</a>
+          <a class="btn filter" data-filter="category_3">CATEGORY 3</a>
+          <a class="btn filter" data-filter="category_1 category_3">CATEGORY 1 &amp; 3</a>
+        </div> -->
+
+      <!-- </div>
+    </div>
+    <div class="gallery row">
+      <ul>
+        <li class="col-md-4 col-sm-4 col-xs-12 mix category_1" data-cat="1">
+          <a href="#" class="mix-cover">
+            <img src="img/sintel-bedroom.png" alt="sintel bedroom">
+            <span class="cover"><span>Sintel Bedroom</span></span>
+          </a>
+        </li>
+        <li class="col-md-4 col-sm-4 col-xs-12 mix category_1" data-cat="1">
+          <a href="#" class="mix-cover">
+            <img src="img/sintel-snowscape.jpg" alt="sintel snowscape">
+            <span class="cover"><span>Snowscape</span></span>
+          </a>
+        </li>
+        <li class="col-md-4 col-sm-4 col-xs-12 mix category_2" data-cat="3">
+          <a href="#" class="mix-cover">
+            <img src="img/ishtar-alley.png" alt="ishtar alley">
+            <span class="cover"><span>Ishtar Alley</span></span>
+          </a>
+        </li>
+        <li class="col-md-4 col-sm-4 col-xs-12 mix category_2" data-cat="2">
+          <a href="#" class="mix-cover">
+            <img src="img/sintel-tree.jpg" alt="sintel tree">
+            <span class="cover"><span>Sintel Tree</span></span>
+          </a>
+        </li>
+        <li class="col-md-4 col-sm-4 col-xs-12 mix category_3" data-cat="3">
+          <a href="#" class="mix-cover">
+            <img src="img/sintel-wallpaper-ishtar.jpg" alt="ishtar wallpaper">
+            <span class="cover"><span>Ishtar Wallpaper</span></span>
+          </a>
+        </li>
+        <li class="col-md-4 col-sm-4 col-xs-12 mix category_3" data-cat="3">
+          <a href="#" class="mix-cover">
+            <img src="img/sintel-town-concept.jpg" alt="sintel town concept">
+            <span class="cover"><span>Sintel Town Concept</span></span>
+          </a>
+        </li>
+      </ul>
+    </div> -->
+    <!-- GALLERY -->
+
+  <!-- </div> --><!-- /.container -->
+
+
+  <!-- Pricing Section -->
+  <!-- <div id="pricing" class="section white">
+    <div class="fixed-container">
+
+      <div class="content">
+        <h1>Pricing Table</h1>
+
+        <div class="pricing">
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="wrapper">
+                <h3 class="text-center"><span class="glyphicon glyphfa fa-leaf"></span>Single Application</h3>
+                <table class="table">
+                  <thead>
+                    <tr><th><span class="price"><i class="fa fa-dollar"></i>9</span></th></tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>One Time Installation</td></tr>
+                    <tr><td>No reselling </td></tr>
+                    <tr><td>Free Email Support</td></tr>
+                    <tr><td><a class="btn" href="#">PURCHASE NOW</a></td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="wrapper">
+                <h3 class="text-center"><span class="glyphicon glyphfa fa-send"></span>Multiple Application</h3>
+                <table class="table">
+                  <thead>
+                    <tr><th><span class="price"><i class="fa fa-dollar"></i>35</span></th></tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Multiple Installations</td></tr>
+                    <tr><td>No reselling </td></tr>
+                    <tr><td>Free Email Support</td></tr>
+                    <tr><td><a class="btn" href="#">PURCHASE NOW</a></td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="wrapper">
+                <h3 class="text-center"><span class="glyphicon glyphfa fa-plane"></span>Extended License</h3>
+                <table class="table">
+                  <thead>
+                    <tr><th><span class="price"><i class="fa fa-dollar"></i>99</span></th></tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>Multiple Installations</td></tr>
+                    <tr><td>Allowed to use and resell</td></tr>
+                    <tr><td>Free Email Support</td></tr>
+                    <tr><td><a class="btn" href="#">PURCHASE NOW</a></td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> --><!-- /.container -->
+
+
+  <!-- Clients and Testimonials Section -->
+  <!--  Image background parallax -->
+  <!-- <div id="clients" class="section image">
+    <div class="background parallax"></div>
+    <div class="fixed-container">
+
+      <div class="content services">
+        <h1>Clients &amp; Testimonials</h1>
+        <div class="row">
+          <div class="logo col-md-3 col-sm-3 col-xs-12"><a class="tab" href="http://webdesigncrowd.com" data-target="#wdc" data-toggle="tab"><img src="img/logo.png" alt="webdesigncrowd"></a></div>
+          <div class="logo col-md-3 col-sm-3 col-xs-12"><a class="tab" href="https://creativemarket.com/webdesigncrowd/" data-target="#creativemarket" data-toggle="tab"><img src="img/CreativeMarket-Logo.png" alt="Creative Market"></a></div>
+          <div class="logo col-md-3 col-sm-3 col-xs-12"><a class="tab" href="http://themeforest.net/?ref=acburst" data-target="#themeforest" data-toggle="tab"><img src="img/themeforest.png" alt="themeforest"></a></div>
+          <div class="logo col-md-3 col-sm-3 col-xs-12"><a class="tab" href="http://www.mojo-themes.com/?r=webdesigncrowd" data-target="#mojothemes" data-toggle="tab"><img src="img/mojo.png" alt="Mojo"></a></div>
+        </div>
+
+        <div class="row">
+          <div class="empty col-md-1 col-sm-1 col-xs-12"></div>
+          <div class="col-md-10 col-sm-10 col-xs-12">
+            <div class="tab-content">
+              <div class="tab-pane fade" id="wdc">WebDesignCrowd</div>
+              <div class="tab-pane active fade in" id="creativemarket">Creative Market is a platform for handcrafted, mousemade design
+              content from independent creatives around the world.
+              We’re passionate about making beautiful design simple
+              and accessible to everyone.</div>
+              <div class="tab-pane fade" id="themeforest">ThemeForest is an Envato Marketplace. At ThemeForest you can buy and sell HTML templates as well as themes for popular CMS products like WordPress, Joomla and Drupal with prices ranging from just $5 up to $40. Items are priced on the complexity, quality and use of the file. The site is home to a bustling community of web designers and developers and is the biggest marketplace of its kind.</div>
+              <div class="tab-pane fade" id="mojothemes">At MOJO Themes we’ve created an open marketplace to sell premium WordPress themes and templates. Also buyers can browse quality items that have been reviewed by our expert team which include free support, upgrades and rich documentation.</div>
+            </div>
+          </div>
+          <div class="empty col-md-1 col-sm-1 col-xs-12"></div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+  <div class="footer">
+    <div class="fixed-container">
+
+      <div class="row">
+        <div class="empty col-md-2 col-sm-2 col-xs-12"></div>
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <h3>links</h3>
+          <ul>
+            <li><a href="mailto:nate@japanstartups.com">Contact</a></li>
+            <!-- <li><a href="#">About</a></li> -->
+            <li><%= link_to 'Blog', 'http://www.japanstartups.com/blog' %></li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+        <div class="col-md-5 col-sm-5 col-xs-12">
+          <h3>about us</h3>
+          <p>
+            We are a community (coming soon) for innovative minds in Japan.
+          </p>
+          <!-- <div class="social-media">
+            <a href="#" data-toggle="tooltip" title="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" data-toggle="tooltip" title="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" data-toggle="tooltip" title="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#" data-toggle="tooltip" title="github"><i class="fa fa-github"></i></a>
+            <a href="#" data-toggle="tooltip" title="pinterest"><i class="fa fa-pinterest"></i></a>
+          </div> -->
+
+        </div>
+        <div class="empty col-md-2 col-sm-2 col-xs-12"></div>
+      </div>
+      <div class="row">
+        <div class="empty col-md-2 col-sm-2 col-xs-12"></div>
+        <div class="empty col-md-8 col-sm-8 col-xs-12"><hr /></div>
+        <div class="empty col-md-2 col-sm-2 col-xs-12"></div>
+      </div>
+    </div>
+
+    <p class="copyright">
+      <%= Date.today.year %> &copy; Made with <%= fa_icon "heart" %> <a href="http://japanstartups.com">Japan Startups</a>
+    </p>
+  </div>
+
+</body>

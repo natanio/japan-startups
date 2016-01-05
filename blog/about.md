@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+[Japan Startups](http://japanstartups.com/) is a community in Japan with one purpose -- to connect the innovative minds in Japan more easily so that anyone, regardless of where they decide to live in Japan, feels they have the support and collaboration they need to turn their dreams of a business idea into a reality.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+We really want this to be a community effort on all sides, so if you've got coding skills, please contribute to this project! You can find the source code for Japan Startups at: [github.com/natanio/japan-startups](https://github.com/natanio/japan-startups)

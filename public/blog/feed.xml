@@ -1,40 +1,173 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://yourdomain.com/blog/</link>
-    <atom:link href="http://yourdomain.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 05 Jan 2016 09:59:55 +0900</pubDate>
-    <lastBuildDate>Tue, 05 Jan 2016 09:59:55 +0900</lastBuildDate>
+    <title>Japan Startups Blog</title>
+    <description>Japan Startups is a community that believes the innovative minds in Japan should have one place to meet and collaborate. Our blog is about everything you need to know about creating a startup in Japan.</description>
+    <link>http://japanstartups.com/blog/</link>
+    <atom:link href="http://japanstartups.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 05 Jan 2016 14:15:57 +0900</pubDate>
+    <lastBuildDate>Tue, 05 Jan 2016 14:15:57 +0900</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Jumpstart Your Digital Career in 2016</title>
+        <description>&lt;p&gt;&lt;strong&gt;Whether you’re looking to establish a startup or switch careers, it’s never been easier to pick up digital skills. In this special report for Japan Startups, David Willoughby test-drives five online learning platforms that can raise your game, wherever you are in the world.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Ten years ago, you could get hired and keep your job even if you professed indifference to most things digital. Now it’s almost unthinkable. Ten years from now, the inability to manipulate digital content could render you unemployable in most strata of the workforce.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;It’s already happening. Employees of smaller companies are now expected to be round-the-clock digital marketers. Small-business owners and freelancers are expected to promote themselves across an array of digital marketing platforms.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Working for larger companies has also become more precarious, with fewer stable jobs and more industries threatened by digital disruption. The sensible thing is to develop a portfolio career or side-business as a safety net, but those things require digital knowhow too.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Fortunately, it’s never been easier to develop hard and soft digital skills without giving up your day job. Over the last 12 months, we’ve witnessed online learning evolve from a one-size-fits-all model delivered free to classrooms of thousands into a more personalised and mentored journey.&lt;/p&gt;
+
+&lt;p&gt;This article looks at the pros and cons of five online learning platforms that were big in 2015: Coursera, FutureLearn, Udemy, Udacity, and General Assembly. We also introduce fifteen courses to raise your digital game in 2016. Whether you’re dipping a digital toe or you want the full-stack experience, you’re sure to find something here.&lt;/p&gt;
+
+&lt;h2 id=&quot;courserahttpswwwcourseraorg&quot;&gt;&lt;a href=&quot;https://www.coursera.org&quot;&gt;Coursera&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;One of the early MOOC platforms, Coursera helped to pioneer the delivery of university courses to huge online populations. As the platform has matured, focus has shifted towards ‘specialisations’ which award a university-accredited certificate on completion of a series of linked courses. Assessment is surprisingly rigorous with weekly tests, peer-reviewed assignments, and security features such as keystroke recognition all in place to ensure the certificate is truly earned. Overall, Coursera is the closest thing to doing your course on campus.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Most-shared Coursera Specialisations on LinkedIn in 2015&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/specializations/digital-marketing&quot;&gt;Digital Marketing&lt;/a&gt;
+University of Illinois at Urbana-Champaign&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/specializations/jhudatascience&quot;&gt;Data Science&lt;/a&gt;
+John Hopkins University&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/specializations/interaction-design&quot;&gt;Interaction Design&lt;/a&gt;
+University of California, San Diego&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 4 to 8 months to earn a certificate. Individual courses can be done in 4 weeks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prices:&lt;/strong&gt; $50 to $100 per course. You’ll need to pass 4 to 8 courses to earn a certificate.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt; Coursera specialisations are rigorous, university-level programmes that take 3-6 months to complete. As such, they’re a great way to earn certificates that demonstrate your knowledge and skills to employers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt; You’ll need to follow the course at a fixed pace and submit weekly assignments. Not so great if you’re a self-directed learner or juggling work or family commitments.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Coursera is great if:&lt;/strong&gt; You’re a university student or career-changer seeking to pad your CV with qualifications or in-demand skills. &lt;a href=&quot;https://www.coursera.org&quot;&gt;Search for courses at Coursera.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;futurelearnhttpswwwfuturelearncom&quot;&gt;&lt;a href=&quot;https://www.futurelearn.com/&quot;&gt;FutureLearn&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;If Coursera is mainly about the course, then FutureLearn is mainly about the learning. The platform was developed by the UK’s Open University, which knows one or two things about helping busy people fit learning into their routines. The minimalist interface lets you get straight to the content, while missing a week of lectures is rarely a problem - just catch up when you have the time. Curious academic explorers will love FutureLearn for its breadth of subjects, while entrepreneurs should find it an excellent way to get an academic grounding in their area of interest.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Upcoming FutureLearn courses in 2016&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.futurelearn.com/courses/smart-cities&quot;&gt;Smart Cities&lt;/a&gt;
+The Open University
+Explore the role of technology and data in cities, and learn how you can participate in the creation of smart cities.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.futurelearn.com/courses/internet-of-things&quot;&gt;The Internet of Things&lt;/a&gt;
+King’s College London
+Learn how IoT works, and how to create a successful product or company using it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.futurelearn.com/courses/enterprise-shed&quot;&gt;The Enterprise Shed: Making Ideas Happen&lt;/a&gt;
+Newcastle University
+Consider where ideas come from and take steps to switch on your creativity, enabling you to create, develop and share your ideas.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 2 to 8 weeks&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prices:&lt;/strong&gt; Free, but you’ll need to pay for a certificate&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt; FutureLearn puts fewer demands on the student, making it well suited to learners with other commitments.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt; FutureLearn tends towards the academic, with an emphasis on theory and discussion. To actually make things happen, you’ll need to add more practical learning from sources like those below.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FutureLearn is great if:&lt;/strong&gt; You’re a self-directed learner looking to explore a subject or generate ideas for a future business. &lt;a href=&quot;https://www.futurelearn.com/&quot;&gt;Search for courses at Futurelearn.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;udemyhttpclicklinksynergycomfs-binclickid7exqdhptpn0offerid3230583250type3subid0&quot;&gt;&lt;a href=&quot;http://click.linksynergy.com/fs-bin/click?id=7ExqdhPtPN0&amp;amp;offerid=323058.3250&amp;amp;type=3&amp;amp;subid=0&quot;&gt;Udemy&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Udemy promised to put teachers at the forefront of online learning. This promise has been delivered, with more than 30,000 courses now offered by self-employed instructors who share proceeds with the platform. Udemy students enjoy unparalleled choice and immediacy. There’s no need to wait for a course to begin: just purchase and start learning. Expect to get more practical know-how for your buck too, as many Udemy instructors have day jobs as business consultants. However, with Udemy being more marketplace than education provider, expect to find a lot more variation in course quality too.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Three Udemy courses that will add to your digital toolbox&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://click.linksynergy.com/fs-bin/click?id=7ExqdhPtPN0&amp;amp;subid=&amp;amp;offerid=323058.1&amp;amp;type=10&amp;amp;tmpid=14538&amp;amp;RD_PARM1=https%3A%2F%2Fwww.udemy.com%2Ffacebook-social-retargeting-course%2F&quot;&gt;Facebook Advertising - PPC and Retargeting for Success&lt;/a&gt;
+So Me Academy
+A great example of how, unlike university courses that take months or years to develop, Udemy courses can respond quickly to meet new skill demands, in this case managing Facebook’s full suite of advertising tools.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://click.linksynergy.com/fs-bin/click?id=7ExqdhPtPN0&amp;amp;subid=&amp;amp;offerid=323058.1&amp;amp;type=10&amp;amp;tmpid=14538&amp;amp;RD_PARM1=https%3A%2F%2Fwww.udemy.com%2Fhow-to-sell-any-product-generate-sales%2F&quot;&gt;How to Sell More Handmade, Affiliate &amp;amp; Digital Products Now&lt;/a&gt;
+Alex Genadinik
+Some Udemy offerings are less like a course and more like a checklist of clever hacks for growing a business. This one is a typical example.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://click.linksynergy.com/fs-bin/click?id=7ExqdhPtPN0&amp;amp;subid=&amp;amp;offerid=323058.1&amp;amp;type=10&amp;amp;tmpid=14538&amp;amp;RD_PARM1=https%3A%2F%2Fwww.udemy.com%2Fthe-complete-ruby-on-rails-developer-course%2F&quot;&gt;The Complete Ruby on Rails Developer Course&lt;/a&gt;
+Rob Percival, Mashrur Hossain
+As well as tips and tricks for marketers, Udemy also offers some industry-standard developer courses such as this one which walks you through a beginner-friendly programming language in 30 hours of lectures.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 1 to 30 hours&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prices:&lt;/strong&gt; Free to expensive&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt; Udemy lets you learn entirely at your own pace. You can bash through a course in a single day if it’s something you need to master quickly. Or you can stockpile courses for future reference. Udemy courses tend towards the practical and provide you with tried-and-tested knowhow from expert instructors.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt; Udemy courses aren’t centrally managed: instructors control not just their course content but also pricing and marketing. Some instructors set steep base prices in order to attract more students with discounts, so it really is a case of buyer-beware. Udemy needs to fix its broken pricing system in order to safeguard user trust.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Udemy is great if:&lt;/strong&gt; You’re a small-business owner who needs to skill up at speed, or a manager who lacks the time to develop complex training programmes for your staff. &lt;a href=&quot;http://click.linksynergy.com/fs-bin/click?id=7ExqdhPtPN0&amp;amp;offerid=323058.3250&amp;amp;type=3&amp;amp;subid=0&quot;&gt;Search for courses at Udemy.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;udacityhttpswwwudacitycom&quot;&gt;&lt;a href=&quot;https://www.udacity.com&quot;&gt;Udacity&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Udacity is pioneering what it calls ‘nanodegrees’: a bit like Coursera’s specialisations except delivered by some of Silicon Valley’s top tech enterprises. A nanodegree takes the form of a project of several months’ duration that provides deep immersion in fields such as machine learning, web development, or mobile gaming. Support comes in the form of video tutorials and project feedback from peers and industry professionals. Before enrolling on a nanodegree, you can also try free short courses from companies such as Google, Facebook, and Amazon.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Three Udacity courses developed by Google employees&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.udacity.com/course/product-design--ud509&quot;&gt;Product Design&lt;/a&gt;
+Google
+Turn your business idea into a viable product through an appreciation of validation, UI/UX, prototyping, and measurement.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.udacity.com/course/ab-testing--ud257&quot;&gt;A/B Testing&lt;/a&gt;
+Google
+Learn how to design simple online experiments aimed at improving a website or app.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.udacity.com/course/tech-entrepreneur-nanodegree--nd007&quot;&gt;Tech Entrepreneur Nanodegree&lt;/a&gt;
+Google
+Develop the skills you need to build your very own business, from ideation to marketing to monetisation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; Individual courses can be done in 2-8 weeks. Nanodegrees take around 6 months to complete on average.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prices:&lt;/strong&gt; Individual courses are free. Nanodegrees costs $200 per month and come with online support.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt; Not only will you learn industry-standard skills from leading tech firms like Google and Facebook, you’ll also learn to speak the language of their employees - and that could be just as important in your career.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt; Udacity courses are developed by engineers and not everything is accessible to learners from a non-tech background. However, Udacity does regularly point users to free starter courses in programming, statistics, and other core tech skills.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Udacity is great if:&lt;/strong&gt; You’re already a tech-minded person and you want to learn digital technologies from the industry leaders. &lt;a href=&quot;https://www.udacity.com/&quot;&gt;Search for courses at Udacity.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;general-assemblyhttpsgeneralassembly&quot;&gt;&lt;a href=&quot;https://generalassemb.ly/&quot;&gt;General Assembly&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;A web design school founded in New York City, General Assembly now offers workshops and immersive programmes in several locations worldwide as well as courses delivered entirely online. Learning to code in your spare time is a nice idea, but the reality is that many people give up before they can master a language. General Assembly is unique in that it provides a mentor with its flagship Circuits courses to help you overcome any frustrating technical hurdles. There are cheaper alternatives out there, but you will not find an easier or more supportive way to jumpstart your digital career.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Circuits: your passport to three digital careers&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://generalassemb.ly/education/learn-html-css-web-design-online&quot;&gt;HTML, CSS &amp;amp; Web Design Circuit&lt;/a&gt;
+Learn how to hand-code beautiful websites with mentor support from a professional web designer.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://generalassemb.ly/education/learn-data-analysis-online&quot;&gt;Data Analysis Circuit&lt;/a&gt;
+Learn to gather, analyze, and tell stories through data with SQL, Excel, and visualisation.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://generalassemb.ly/education/learn-digital-marketing-online&quot;&gt;Digital Marketing Circuit&lt;/a&gt;
+Learn digital marketing tactics from social media and content strategy to paid campaigns and analytics.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Duration:&lt;/strong&gt; 4 to 10 weeks&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prices:&lt;/strong&gt; $750 to $1250&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt; Being paired with a mentor is a great way to overcome those technical hurdles that otherwise might stop you in your tracks. The GA learning platform is intuitive and beautifully designed. Take it for a spin with &lt;a href=&quot;https://dash.generalassemb.ly/&quot;&gt;Dash&lt;/a&gt;, GA’s free coding tutorial.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt; General Assembly courses aren’t cheap, so be prepared to make a major investment in your professional development. To help towards that, here’s a link to an email sign-up page that gets you a $100 discount.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;General Assembly is great if:&lt;/strong&gt; You’re serious about establishing a career in a digital field and you need a little coaching to help you get there. &lt;a href=&quot;https://generalassemb.ly/&quot;&gt;Search for courses at General Assembly.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Happy learning in 2016, wherever you may be! If your goal is to establish a business in Japan, why not join our community to advertise your skills and start building your team.&lt;/em&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 05 Jan 2016 01:29:26 +0900</pubDate>
-        <link>http://yourdomain.com/blog/jekyll/update/2016/01/05/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog/jekyll/update/2016/01/05/welcome-to-jekyll.html</guid>
+        <pubDate>Mon, 04 Jan 2016 02:27:31 +0900</pubDate>
+        <link>http://japanstartups.com/blog/e-learning/career-development/2016/01/04/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://japanstartups.com/blog/e-learning/career-development/2016/01/04/welcome-to-jekyll.html</guid>
         
         
-        <category>jekyll</category>
+        <category>e-learning</category>
         
-        <category>update</category>
+        <category>career-development</category>
         
       </item>
     
