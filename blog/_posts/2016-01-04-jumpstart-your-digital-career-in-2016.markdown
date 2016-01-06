@@ -2,6 +2,10 @@
 layout: post
 title:  "Jumpstart Your Digital Career in 2016"
 date:   2016-01-03 17:27:31
+image:
+  feature: https://farm3.staticflickr.com/2905/14576750285_fe034188e8_b.jpg
+  credit: hjl
+  creditlink: https://www.flickr.com/photos/hjl/
 author: David Willoughby
 categories: e-learning career-development
 ---

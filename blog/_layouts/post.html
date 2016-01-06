@@ -1,17 +1,35 @@
 ---
-layout: default
+layout: post-default
 ---
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-    <p><a href="#disqus_thread"></a></p>
-  </header>
+  <section class="article-post">
+    {% if page.image.feature %}
+      <header class="featured-image" style="background-image: url('{{page.image.feature}}')">
+        <div class="image-container">
+          <div class="entry-header-heading">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} | <a href="#disqus_thread"></a></p>
+          </div>
+          {% if page.image.credit %}
+            <div class="image-credit">Image source: <a href="{{ page.image.creditlink}}">{{ page.image.credit }}</a></div>
+          {% endif %}
+        </div><!-- .image-container -->
+      </header>
+    {% else %}
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        <p><a href="#disqus_thread"></a></p>
+      </header>
+    {% endif %}
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+    <article class="post-content">
+      {{ content }}
+    </article>
+  </section>
+
+
 
   <div id="disqus_thread"></div>
     <script type="text/javascript">

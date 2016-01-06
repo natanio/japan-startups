@@ -110,8 +110,7 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
@@ -149,6 +148,7 @@ pre {
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
+  max-width: 100%;
   position: relative; }
 
 .site-title {
@@ -201,6 +201,27 @@ pre {
       .site-nav .page-link {
         display: block;
         padding: 5px 10px; } }
+
+/**
+ * Post Layout
+ */
+.featured-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh; }
+  .featured-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    opacity: .6; }
+  .featured-image .image-container {
+    padding: 12em;
+    max-width: 750px;
+    margin: 0 auto; }
 
 /**
  * Site footer
@@ -294,7 +315,9 @@ pre {
 .post-content {
   margin-bottom: 30px; }
   .post-content h2 {
-    font-size: 32px; }
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 50px; }
     @media screen and (max-width: 800px) {
       .post-content h2 {
         font-size: 28px; } }
