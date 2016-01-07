@@ -162,6 +162,8 @@ pre {
       max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
+  .wrapper.narrow {
+    width: 650px; }
 
 /**
  * Clearfix
