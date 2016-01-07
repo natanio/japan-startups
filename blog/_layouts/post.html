@@ -9,7 +9,7 @@ layout: post-default
         <div class="image-container">
           <div class="entry-header-heading">
             <h1 class="post-title dynamic white-text">{{ page.title }}</h1>
-            <p class="post-meta white-text">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} <a href="#disqus_thread"></a></p>
+            <p class="post-meta white-text">Published on{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} by {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} <a href="#disqus_thread"></a></p>
           </div>
         </div><!-- .image-container -->
         {% if page.image.credit %}
