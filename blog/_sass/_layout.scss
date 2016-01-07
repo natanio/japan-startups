@@ -95,24 +95,69 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
-    opacity: .6;
-  }
 
   .image-container {
     padding: 12em;
     max-width: 750px;
     margin: 0 auto;
+
+    a {
+      position: relative;
+      font-size: 12px;
+      line-height: 20px;
+      padding: 10px;
+      margin: 0 10px 10px 10px;
+      text-shadow: none;
+      box-shadow: none;
+      background: none;
+      border: 2px solid rgba(255,255,255,.6);
+      color: rgba(255,255,255,.8);
+      background-color: transparent;
+
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      border-radius: 6px;
+
+      -webkit-transition: .3s;
+      transition: .3s;
+    }
+      a:hover {
+        border-color: #fff;
+        color: #fff;
+      }
+      a:active {
+        top: 2px;
+      }
+      a.active {
+        background-color: rgba(0,0,0,.1);
+        border-color: #fff;
+        color: #fff;
+      }
+      a:focus {
+        color: #fff;
+        outline: none;
+      }
+
+  }
+
+  .image-credit {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    font-style: italic;
+
+    a {
+      color: white;
+      text-decoration: underline;
+      transition: all 0.3s ease;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 
 }
+
 
 /**
  * Site footer
@@ -235,6 +280,10 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    margin-top: 50px;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
 
     h2 {
         font-size: 32px;
@@ -260,5 +309,9 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+
+    #disqus_thread {
+      margin-top: 60px;
     }
 }
