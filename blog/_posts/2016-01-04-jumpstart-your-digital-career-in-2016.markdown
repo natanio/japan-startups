@@ -1,6 +1,6 @@
 ---
 layout: post
-cover: 'assets/images/cover3.jpg'
+cover: 'assets/images/cover2.jpg'
 title:  "Jumpstart Your Digital Career in 2016"
 date:   2016-01-03 17:27:31
 tags: e-learning startup-skills
@@ -169,7 +169,7 @@ Learn digital marketing tactics from social media and content strategy to paid c
 
 **General Assembly is great if:** You’re serious about establishing a career in a digital field and you need a little coaching to help you get there. [Search for courses at General Assembly.](https://generalassemb.ly/)
 
-*Happy learning in 2016, wherever you may be! If your goal is to establish a business in Japan, why not join our community to advertise your skills and start building your team.*
+*Happy learning in 2016, wherever you may be! If your goal is to establish a business in Japan, why not [join our community](http://www.japanstartup.com) to advertise your skills and start building your team.*
 
 
 [1]: https://www.coursera.org/specializations/digital-marketing
