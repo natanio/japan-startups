@@ -1,13 +1,23 @@
 ---
 layout: post
+cover: 'assets/images/cover3.jpg'
 title:  "Jumpstart Your Digital Career in 2016"
 date:   2016-01-03 17:27:31
-image:
-  feature: https://farm3.staticflickr.com/2905/14576750285_fe034188e8_b.jpg
-  credit: hjl
-  creditlink: https://www.flickr.com/photos/hjl/
+tags: e-learning startup-skills
+subclass: 'post tag-test tag-content'
+navigation: true
+logo: 'assets/images/logo.png'
+categories: 'natanio'
+disqus: true
+
+# Author info
 author: David Willoughby
-categories: e-learning career-development
+nickname: 'david-willoughby'
+bio: 'David is from the UK and has lived in Japan since 2003. He has led multiple careers as a journalist, consultant and international marketer. Junbi was established in 2015 to support the global development of Japanese universities and make English a second language for at least 50% of Japanese graduates by 2025.'
+location: 'Tokyo, Japan'
+homepage: 'http://junbi.org'
+short_url: junbi.org
+image: '/assets/images/david-img.jpg'
 ---
 
 **Whether you’re looking to establish a startup or switch careers, it’s never been easier to pick up digital skills. In this special report for Japan Startups, David Willoughby test-drives five online learning platforms that can raise your game, wherever you are in the world.**

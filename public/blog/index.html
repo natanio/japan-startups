@@ -1,132 +1,182 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <!-- [[! Document Settings ]] -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- [[! Page Meta ]] -->
+    <title>Japan Startups Blog</title>
+    <meta name="description" content="Japan Startups Blog - Helping to connect innovative minds and entrepreneurs all across Japan, and build a community of support for startups." />
 
-  <title>Japan Startups Blog</title>
-  <meta name="description" content="Japan Startups is a community that believes the innovative minds in Japan should have one place to meet and collaborate. Our blog is about everything you need to know about creating a startup in Japan.">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="/blog/css/main.css">
-  <link rel="canonical" href="http://japanstartups.com/blog/">
-  <link rel="alternate" type="application/rss+xml" title="Japan Startups Blog" href="http://japanstartups.com/blog/feed.xml" />
-  <script src="//load.sumome.com/" data-sumo-site-id="5759715c51fecb41ccd86d9b5fcb332026f8be2829c4078e16741c4ebfc5c875" async="async"></script>
+    <link rel="shortcut icon" href="/blog//assets/images/favicon.ico" >
+
+    <!-- [[! Styles'n'Scripts ]] -->
+    <link rel="stylesheet" type="text/css" href="/blog//assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css"
+          href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+    <link rel="stylesheet" type="text/css" href="/blog//assets/css/syntax.css" />
+
+    <!-- [[! Ghost outputs important style and meta data with this tag ]] -->
+        <link rel="canonical" href="/blog/" />
+    <meta name="referrer" content="origin" />
+    <link rel="next" href="/blog//page2/" />
+
+    <meta property="og:site_name" content="Japan Startups Blog" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Japan Startups Blog" />
+    <meta property="og:description" content="Helping to connect innovative minds and entrepreneurs all across Japan, and build a community of support for startups." />
+    <meta property="og:url" content="/blog" />
+    <meta property="og:image" content="/blog/assets/images/cover1.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Japan Startups Blog" />
+    <meta name="twitter:description" content="Helping to connect innovative minds and entrepreneurs all across Japan, and build a community of support for startups." />
+    <meta name="twitter:url" content="/blog" />
+    <meta name="twitter:image:src" content="/blog/assets/images/cover1.jpg" />
+
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Website",
+    "publisher": "Japan Startups",
+    "url": "/blog",
+    "image": "/blogassets/images/cover1.jpg",
+    "description": "Helping to connect innovative minds and entrepreneurs all across Japan, and build a community of support for startups."
+}
+    </script>
+
+    <meta name="generator" content="Jekyll 3.0.0" />
+    <link rel="alternate" type="application/rss+xml" title="Japan Startups Blog" href="/blog//rss.xml" />
+
 </head>
+<body class="home-template nav-closed">
 
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        <li class="nav-home  nav-current" role="presentation"><a href="/blog/">Home</a></li>
+        <li class="nav-about " role="presentation"><a href="/blog/about">About</a></li>
+        <!-- <li class="nav-fables " role="presentation"><a href="/blog/tag/fables">Fables</a></li>
+        <li class="nav-speeches " role="presentation"><a href="/blog/tag/speeches">Speeches</a></li>
+        <li class="nav-fiction " role="presentation"><a href="/blog/tag/fiction">Fiction</a></li>
+        <li class="nav-author " role="presentation"><a href="/blog/author/casper">Author</a></li> -->
+    </ul>
+    <a class="subscribe-button icon-feed" href="/blog/rss.xml">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
 
-  <body>
+    <div class="site-wrapper">
 
-    <header class="site-header">
+        <!-- [[! Everything else gets inserted here ]] -->
+        <!-- < default -->
+<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
-  <div class="wrapper">
-
-    <a class="site-title" href="/blog/">Japan Startups Blog</a>
-
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        <a class="page-link" href="http://www.japanstartups.com">Home</a>
+<!-- The big featured header  -->
+<header class="main-header "
+        style="background-image: url(/blog/assets/images/cover1.jpg) ">
+    <nav class="main-nav overlay clearfix">
+        <a class="blog-logo" href="/blog/"><img src="/blog/assets/images/logo.png" alt="Blog Logo" /></a>
         
-          
-          <a class="page-link" href="/blog/about/">About</a>
-          
+            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         
-          
-        
-          
-        
-          
-        
-      </div>
     </nav>
-
-  </div>
-
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">Japan Startups Blog</h1>
+            <h2 class="page-description">Helping to connect innovative minds and entrepreneurs all across Japan, and build a community of support for startups.</h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
 </header>
 
+<!-- The main content area on the homepage -->
+<main id="content" class="content" role="main">
 
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
+    <!-- The tag below includes the post loop - partials/loop.hbs -->
+        <!-- Previous/next page links - only displayed on page 2+ -->
+    <div class="extra-pagination inner">
+        
+            <nav class="pagination" role="pagination">
     
-      <li>
-        <span class="post-meta">Jan 4, 2016</span>
-
-        <h2>
-          <a class="post-link" href="/blog/e-learning/career-development/2016/01/04/jumpstart-your-digital-career-in-2016.html">Jumpstart Your Digital Career in 2016</a>
-        </h2>
-      </li>
+    <span class="page-number"> Page 1 of 1 </span>
     
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/blog/feed.xml">via RSS</a></p>
-
-</div>
-
-      </div>
+</nav>
+        
     </div>
 
-    <footer class="site-footer">
+    <!-- This is the post loop - each post will be output using this markup -->
+    
+    <article class="post">
+        <header class="post-header">
+            <h2 class="post-title"><a href="/blog/jumpstart-your-digital-career-in-2016">Jumpstart Your Digital Career in 2016</a></h2>
+        </header>
+        <section class="post-excerpt">
+            <p>Whether you’re looking to establish a startup or switch careers, it’s never been easier to pick up digital skills. In this special report for Japan Startups,... <a class="read-more" href="/blog/jumpstart-your-digital-career-in-2016">&raquo;</a></p>
+        </section>
+        <footer class="post-meta">
+            <img class="author-thumb" src="/blog//assets/images/david-img.jpg" alt="Author image" nopin="nopin" />
+            <!-- author -->
+            <a href='/blog/author/david-willoughby'>David Willoughby</a>
+            <!-- [[tags prefix=" on "]] -->
+            
+                on
+                
+                    
+                       <a href='/blog/tag/e-learning'>E-learning</a>,
+                    
+                
+                    
+                       <a href='/blog/tag/startup-skills'>Startup-skills</a>
+                    
+                
+            
+            <time class="post-date" datetime="2016-01-04">04 Jan 2016</time>
+        </footer>
+    </article>
+    
 
-  <div class="wrapper narrow">
+    <!-- Previous/next page links - displayed on every page -->
+    
+        <nav class="pagination" role="pagination">
+    
+    <span class="page-number"> Page 1 of 1 </span>
+    
+</nav>
+    
 
-    <h2 class="footer-heading">Japan Startups Blog</h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>Japan Startups Blog</li>
-          <li><a href="mailto:nate@japanstartups.com">nate@japanstartups.com</a></li>
-        </ul>
-      </div>
+</main>
 
-      <div class="footer-col  footer-col-2">
-        <ul class="social-media-list">
 
-          <li>
-            <a href="http://www.japanstartups.com">Visit Japan Startups</a>
-          </li>
-
-          
-          <!-- <li>
-            <a href="https://twitter.com/japanstartups">
-              <span class="icon  icon--twitter">
-                <svg viewBox="0 0 16 16">
-                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
-                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
-                </svg>
-              </span>
-
-              <span class="username">japanstartups</span>
-            </a>
-          </li> -->
-          
-        </ul>
-      </div>
-
-      <div class="footer-col  footer-col-3">
-        <p class="text">Japan Startups is a community that believes the innovative minds in Japan should have one place to meet and collaborate. Our blog is about everything you need to know about creating a startup in Japan.</p>
-      </div>
+        <footer class="site-footer clearfix">
+          <section class="copyright"><a href="/blog/">Japan Startups Blog</a> &copy; 2016</section>
+          <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/biomadeira/jasper">Jasper</a></section>
+        </footer>
     </div>
+    <!-- [[! Ghost outputs important scripts and data with this tag ]] -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- [[! The main JavaScript file for Casper ]] -->
+    <script type="text/javascript" src="/blog/assets/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="/blog/assets/js/index.js"></script>
 
-  </div>
+    <!-- Add Google Analytics  -->
+        <!-- Google Analytics Tracking code -->
+     <script>
+	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-</footer>
+	    ga('create', 'UA-69281367-1', 'auto');
+	    ga('send', 'pageview');
 
-
-  </body>
-
+     </script>
+</body>
 </html>

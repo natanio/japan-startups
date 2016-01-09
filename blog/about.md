@@ -1,7 +1,10 @@
 ---
 layout: page
 title: About
-permalink: /about/
+class: 'post'
+navigation: True
+logo: 'assets/images/logo.png'
+current: about
 ---
 
 [Japan Startups](http://japanstartups.com/) is a community in Japan with one purpose -- to connect the innovative minds in Japan more easily so that anyone, regardless of where they decide to live in Japan, feels they have the support and collaboration they need to turn their dreams of a business idea into a reality.
