@@ -7,7 +7,7 @@ tags: e-learning startup-skills
 subclass: 'post tag-test tag-content'
 navigation: true
 logo: 'assets/images/logo.png'
-categories: 'natanio'
+categories: 'david-willoughby'
 disqus: true
 
 # Author info
