@@ -18,7 +18,7 @@ url: 'http://japanstartups.com'
 image: '/assets/images/nate-img.png'
 
 short_url: 'japanstartups.com/blog'
-google_analytics: UA-69281367-1
+google_analytics: UA-72221436-1
 disqus: japanstartups
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: '/blog'
